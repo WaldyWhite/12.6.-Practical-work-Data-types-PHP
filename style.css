@@ -32,13 +32,10 @@ body {
 
 }
 
-.title, p {
-    padding-top: 3px;
-    margin-left: 20px;
-    color: #646464;
-
-}
 .title {
+    margin-left: 20px;
+    display: block;
+    padding-top: 3px;
     color: #646464;
     font: normal 1.2em/1.2em "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 1px;
@@ -48,8 +45,9 @@ body {
 }
 p {
     font-size: 1em;
-    line-height: 1.6em !important;
-    color: #313131;
+    line-height: 1.6em !important;    padding-top: 3px;
+    margin-left: 20px;
+
 }
 
 .titleMain {
