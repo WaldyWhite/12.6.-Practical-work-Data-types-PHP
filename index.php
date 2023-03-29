@@ -27,7 +27,7 @@
                     <div class="splitting"> <p><span class="func">function getFullnameFromParts</span> принимает как аргумент три строки — фамилию, имя и отчество. Возвращает как результат их же, но склеенные через пробел.</p>
                         <div class="textResult">результат работы функции:</div>
                         <div class="box">
-                                <span class="text"><?php echo getFullnameFromParts($surnameNew, $nameNew, $patronomycNew); ?>
+                                <span class="text"><?php var_dump(getFullnameFromParts($surnameNew, $nameNew, $patronomycNew)); ?>
                             </div><br>
                         </div>
 
